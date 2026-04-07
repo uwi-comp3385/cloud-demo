@@ -77,7 +77,7 @@ const dashboardUrl = computed(() =>
                     <Link
                         v-if="!$page.props.auth.user && canRegister"
                         :href="register()"
-                        class="rounded-md bg-primary px-6 py-2.5 text-sm font-semibold text-primary-foreground shadow-sm hover:bg-primary/90 transition-colors"
+                        class="rounded-md bg-blue-700 px-6 py-2.5 text-sm font-semibold text-primary-foreground shadow-sm hover:bg-primary/90 transition-colors"
                     >
                         Create an account
                     </Link>
